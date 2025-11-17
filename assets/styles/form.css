@@ -1,3 +1,5 @@
+@import url('./variables.css');
+
 form {
   display: grid;
   gap: 0.5rem;
@@ -55,13 +57,13 @@ input[type='password'] {
   width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
-  border-radius: 0.25rem;
+  border-radius: var(--radius-sm)
   font-size: 1rem;
-  height: 3rem;
+  height: var(--input-height);
 }
 
 input::placeholder {
-  color: #6c757d;
+  color: var(--color-text-light);
   font-size: 0.75rem;
 }
 
@@ -74,7 +76,6 @@ input::placeholder {
 
   .form-actions {
     display: flex;
-
     gap: 1rem;
     margin-top: 1rem;
   }
@@ -101,7 +102,6 @@ input::placeholder {
   input[type='password'] {
     padding: 0.25rem;
     font-size: 0.875rem;
-    height: 2.5rem;
   }
 
   input::placeholder {

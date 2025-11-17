@@ -1,20 +1,24 @@
+@import url('./variables.css');
+
 .app-stores {
   display: flex;
-  gap: 0.25rem;
-  margin-top: 4rem;
+  gap: clamp(0.75rem, 2vw, 1rem);
+  margin-top: 2rem;
 }
 
-.app-stores img {
-  width: auto;
-  height: 40px;
+.app-stores__link {
+  display: block;
+  width: clamp(110px, 30vw, 135px);
+  height: auto;
+  transition: transform 0.2s ease;
 }
 
-@media (max-width: 767px) {
-  .app-stores {
-    margin-top: 2rem;
-  }
+.app-stores__link:hover {
+  transform: translateY(-2px);
+}
 
-  .app-stores img {
-    height: 30px;
-  }
+.app-stores__link svg {
+  width: 100%;
+  height: auto;
+  display: block;
 }

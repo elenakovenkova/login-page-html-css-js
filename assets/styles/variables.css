@@ -1,0 +1,22 @@
+:root {
+  --color-primary: #0054b3;
+  --color-primary-hover: #004494;
+  --color-secondary: #007aff;
+  --color-success: #16a34a;
+  --color-success-bg: #dcfce7;
+  --color-error: #dc2626;
+  --color-error-bg: #fee2e2;
+  --color-border-error: #fecaca;
+  --color-text: #1d1d1d;
+  --color-text-light: #6c757d;
+  --color-white: #fff;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --gap: clamp(1rem, 4vw, 3rem);
+  --gap-sm: 0.5rem;
+  --font-size-sm: 0.875rem;
+  --font-size-xs: 0.75rem;
+  --input-height: 3rem;
+  --input-height-mobile: 2.5rem;
+}

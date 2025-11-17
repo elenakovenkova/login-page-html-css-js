@@ -1,20 +1,32 @@
-.alert {
-  max-height: 50px;
-  margin-bottom: 0.25rem;
-  padding: 0.5rem;
-  border-radius: 0.25rem;
-  font-size: 0.75rem;
-  display: none;
-}
+@import url('./variables.css');
 
-.alert--error {
-  background: #f8d7da;
-  color: #721c24;
-  display: block;
+.alert {
+  margin: 1rem 0;
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid;
 }
 
 .alert--success {
-  background: #d4edda;
-  color: #155724;
+  background: var(--color-success-bg);
+  color: var(--color-success);
+  border-color: #bbf7d0;
+}
+.alert--error {
+  background: var(--color-error-bg);
+  color: var(--color-error);
+  border-color: var(--color-border-error);
+}
+
+.error {
+  color: var(--color-error);
+  font-size: var(--font-size-xs);
+  margin-top: 0.25rem;
   display: block;
+}
+.input-error {
+  border-color: var(--color-error) !important;
+  box-shadow: 0 0 0 1px var(--color-error);
 }

@@ -1,5 +1,3 @@
-@import url('./variables.css');
-
 form {
   display: grid;
   gap: 0.5rem;

@@ -1,5 +1,3 @@
-@import url('./variables.css');
-
 .right {
   background: var(--color-white);
   display: flex;

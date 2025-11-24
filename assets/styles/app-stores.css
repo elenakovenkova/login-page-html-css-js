@@ -1,5 +1,3 @@
-@import url('./variables.css');
-
 .app-stores {
   display: flex;
   gap: clamp(0.75rem, 2vw, 1rem);

@@ -5,6 +5,7 @@
   width: 100%;
   padding: 3rem 8rem 0 8rem;
   gap: var(--gap);
+  height: 100dvh;
   overflow-y: auto;
 }
 

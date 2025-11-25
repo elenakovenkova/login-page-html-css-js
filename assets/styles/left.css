@@ -3,7 +3,6 @@
   color: var(--color-white);
   padding: 4rem;
   max-width: 814px;
-  width: 100%;
   display: grid;
   grid-template-rows: auto 1fr;
   align-items: start;
@@ -82,7 +81,7 @@
 
 @media (max-width: 1200px) {
   .left {
-    width: 100%;
+    width: 100vw;
     max-width: 100%;
     padding: 2rem 1rem;
     gap: 2rem;

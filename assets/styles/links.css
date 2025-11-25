@@ -1,11 +1,12 @@
 .link {
-  color: #0054b8;
+  color: #0055cc !important;
   text-decoration: none;
 }
 
 .link-password:hover,
 .link:hover {
   text-decoration: underline;
+  color: #003399 !important;
 }
 
 .link-password {
@@ -13,7 +14,7 @@
   line-height: 140%;
   letter-spacing: -0.02em;
   justify-self: right;
-  color: #0054b8;
+  color: #0055cc !important;
   text-decoration: none;
 }
 

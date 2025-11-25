@@ -2,7 +2,8 @@
   background: linear-gradient(316deg, var(--color-secondary), #0f70da);
   color: var(--color-white);
   padding: 4rem;
-  max-width: 51rem;
+  max-width: 814px;
+  width: 100%;
   display: grid;
   grid-template-rows: auto 1fr;
   align-items: start;
